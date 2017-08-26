@@ -9,7 +9,7 @@
 import XCTest
 @testable import DevWorld_Demo
 
-class DevWorld_DemoTests: XCTestCase {
+class DevWorld_CI_DemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,16 +21,32 @@ class DevWorld_DemoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testAddition() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let testSimple = Simple(a: 1, b: 2)
+        XCTAssertEqual(testSimple.add(), 3);
     }
     
-    func testPerformanceExample() {
+    func testSubtraction() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let testSimple = Simple(a: 1, b: 2)
+        XCTAssertEqual(testSimple.subtract(), -1);
+    }
+    
+    func testAdditionPerformance() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            for index : Int32 in 1...100 {
+                let testSimple = Simple(a: index, b: index)
+                _ = testSimple.add()
+            }
         }
     }
     
 }
+  

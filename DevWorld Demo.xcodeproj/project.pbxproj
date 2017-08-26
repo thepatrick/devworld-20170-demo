@@ -14,6 +14,7 @@
 		CD9B65691F523815007F4EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B65671F523815007F4EA2 /* LaunchScreen.storyboard */; };
 		CD9B65741F523815007F4EA2 /* DevWorld_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B65731F523815007F4EA2 /* DevWorld_DemoTests.swift */; };
 		CD9B657F1F523815007F4EA2 /* DevWorld_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B657E1F523815007F4EA2 /* DevWorld_DemoUITests.swift */; };
+		CD9B658E1F523887007F4EA2 /* Simple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B658D1F523887007F4EA2 /* Simple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CD9B657A1F523815007F4EA2 /* DevWorld DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DevWorld DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9B657E1F523815007F4EA2 /* DevWorld_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevWorld_DemoUITests.swift; sourceTree = "<group>"; };
 		CD9B65801F523815007F4EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9B658D1F523887007F4EA2 /* Simple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CD9B65651F523815007F4EA2 /* Assets.xcassets */,
 				CD9B65671F523815007F4EA2 /* LaunchScreen.storyboard */,
 				CD9B656A1F523815007F4EA2 /* Info.plist */,
+				CD9B658D1F523887007F4EA2 /* Simple.swift */,
 			);
 			path = "DevWorld Demo";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				CD9B65611F523815007F4EA2 /* ViewController.swift in Sources */,
 				CD9B655F1F523815007F4EA2 /* AppDelegate.swift in Sources */,
+				CD9B658E1F523887007F4EA2 /* Simple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
