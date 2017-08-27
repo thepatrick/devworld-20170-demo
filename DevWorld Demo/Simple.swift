@@ -13,7 +13,7 @@ struct Simple {
     let b: Int32
     
     func add() -> Int32 {
-        return a + b
+        return a + b + 1
     }
     
     func subtract() -> Int32 {
